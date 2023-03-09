@@ -45,8 +45,8 @@ setAppData((prevdata) => {
       </nav>
 
       <div className="input-field" >
-        <input type="text" placeholder="Enter the first line ..." />
-       <input type="text" placeholder="Enter the second line ..."  />
+        <input type="text" placeholder="Enter the first line ..." name="firstline" />
+       <input type="text" placeholder="Enter the second line ..." name="secondline" />
   </div>
    <button className="generateBTN" onClick={getNewMeme}> 
    Generate a new Meme</button>
