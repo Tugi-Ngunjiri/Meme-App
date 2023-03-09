@@ -12,7 +12,13 @@ export default function Meme(props) {
 
 // using [Api ImgFlip]
 // We are using so its a sideefect need useEffect
-React.useEffect
+React.useEffect(() =>{
+  //append point
+
+ fetch("https://api.imgflip.com/get_memes")
+ .then(response => response.json())
+ .then(memeData => setNewMemeData(data))
+})
 
 
 
@@ -37,7 +43,7 @@ function getNewMeme(){
       
       <input type="text" placeholder="Enter the second line ..."  />
   </div>
-   <button className="generateBTN" onClick{getNewMeme}> Generate a new Meme</button>
+   <button className="generateBTN" onClick{"getNewMeme"}> Generate a new Meme</button>
  <img className="imageMEME"  src= {appData.memepicture} alt="randomMeme" />
  </div>
   )
