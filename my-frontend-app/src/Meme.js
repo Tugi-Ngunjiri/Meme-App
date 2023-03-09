@@ -6,9 +6,14 @@ export default function Meme(props) {
  const [appData, setAppData] = React.useState({
    firstline:"",
    secondline:"",
-   memepicture:"",
+   memepicture:"http://i.imgflip.com/28j0te.jpg",
 
  })
+
+// using Api
+
+
+
 
 
 
@@ -25,7 +30,7 @@ export default function Meme(props) {
       <input type="text" placeholder="Enter the second line ..."  />
   </div>
    <button className="generateBTN"> Generate a new Meme</button>
-<img className="imageMEME"  src="http://i.imgflip.com/28j0te.jpg"  alt=""></img>
+ <img className="imageMEME"  src= {appData.memepicture} alt="randomMeme" />
  </div>
   )
-}
+} 
