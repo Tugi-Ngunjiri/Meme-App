@@ -7,8 +7,8 @@
   color: white;
 }
 .app-container{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color:black ;
   margin: 30px auto;
 }
@@ -30,4 +30,46 @@
   font-size:18px ;
   font-weight:bold ;
   color: #fabd05;
+}
+
+.input-field{
+  display: flex;
+  align-items: centre;
+  justify-content: space-evenly ;
+  margin: 18px 8px;
+}
+
+input{
+padding: 10px;
+font-size: 15px;
+width: 180px;
+border: none;
+outline: none;
+background-color: white;
+color:black;
+}
+
+::placeholder {
+color:black ;
+}
+input:focus{
+  outline: 2px solid yellow;
+  color:black;
+
+}
+
+.generateBTN{
+  margin: 20px;
+  padding: 0px;
+  background-color:yellow;
+  color:black;
+  font-weight:bold;
+  padding:12px 9px;
+  margin: left 30%;
+}
+
+.generateBTN:act1{
+background-color:#f7c12a;
+
+
 }
