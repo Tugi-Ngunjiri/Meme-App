@@ -10,8 +10,16 @@ export default function Meme(props) {
 
  })
 
-// using Api
+// using [Api ImgFlip]
+// We are using so its a sideefect need useEffect
+React.useEffect
 
+
+
+function getNewMeme(){
+ const randomNumber = Math.floor(math.ranndom() * meme.lenght )
+
+}
 
 
 
@@ -29,7 +37,7 @@ export default function Meme(props) {
       
       <input type="text" placeholder="Enter the second line ..."  />
   </div>
-   <button className="generateBTN"> Generate a new Meme</button>
+   <button className="generateBTN" onClick{getNewMeme}> Generate a new Meme</button>
  <img className="imageMEME"  src= {appData.memepicture} alt="randomMeme" />
  </div>
   )
