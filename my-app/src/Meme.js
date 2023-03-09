@@ -3,10 +3,11 @@ import React from 'react'
 export default function Meme(props) {
 
 // using state
- const [] = React.useState({
+ const [appData, setAppData] = React.useState({
+   firstline:""
+   sec
 
 
-  
  })
 
 
