@@ -3,7 +3,14 @@ import React from 'react'
 export default function Meme(props) {
 
 // using state
- const [] = React.useState()
+ const [] = React.useState({
+
+
+  
+ })
+
+
+
   return (
     <div className="meme-container">
       <nav className="navbar">
