@@ -5,8 +5,8 @@ export default function Meme(props) {
 // using state
  const [appData, setAppData] = React.useState({
    firstline:"",
-   secondline:""
-
+   secondline:"",
+   memepicture:"",
 
  })
 
