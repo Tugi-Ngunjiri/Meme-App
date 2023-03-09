@@ -14,7 +14,7 @@ export default function Meme(props) {
 // We are using so its a sideefect need useEffect
  // We need a state to store the data
 
-const [newMemeDat,setNewMemeData] = React.useState()
+const [newMemeDat,setNewMemeData] = React.useState([])
  React.useEffect(() =>{
   //append point
 
@@ -26,8 +26,9 @@ const [newMemeDat,setNewMemeData] = React.useState()
 
 
 function getNewMeme(){
- const randomNumber = Math.floor(math.ranndom() * meme.lenght )
-
+ const randomNumber = Math.floor(math.ranndom() *newMemeData.lenght )
+const url = newMemeData[randomNumber].url
+console.log(url)
 }
 
 
@@ -46,7 +47,8 @@ function getNewMeme(){
       
       <input type="text" placeholder="Enter the second line ..."  />
   </div>
-   <button className="generateBTN" onClick{"getNewMeme"}> Generate a new Meme</button>
+   <button className="generateBTN" onClick={getNewMeme}> 
+   Generate a new Meme</button>
  <img className="imageMEME"  src= {appData.memepicture} alt="randomMeme" />
  </div>
   )

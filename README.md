@@ -14,10 +14,10 @@ ISC
 
 
 # React part
--Creating the frontend of the app
+-Creating the frontend of the app;
 
 # Sinatra part
--Creating the backened of the app
+-Creating the backened of the app;
 
 ## Project [
     
