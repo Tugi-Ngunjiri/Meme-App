@@ -14,6 +14,10 @@ export default function Meme(props) {
       <input type="text" placeholder="Enter the second line ..."  />
   </div>
    <button className="generateBTN"> Generate a new Meme</button>
+ <div>
+<img className="imageMEME"  src="http://i.imgflip.com/28j0te.jpg"  alt=""></img>
+
+ </div>
  </div>
   )
 }

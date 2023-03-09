@@ -7,8 +7,8 @@
   color: white;
 }
 .app-container{
-  width: 500px;
-  height: 500px;
+  max-width: 400px;
+  height: auto;
   background-color:black ;
   margin: 30px auto;
 }
@@ -37,6 +37,7 @@
   align-items: centre;
   justify-content: space-evenly ;
   margin: 18px 8px;
+  
 }
 
 input{
@@ -70,6 +71,9 @@ input:focus{
 
 .generateBTN:act1{
 background-color:#f7c12a;
+}
+
+.imageMEME{
 
 
 }
