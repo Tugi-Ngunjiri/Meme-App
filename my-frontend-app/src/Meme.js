@@ -12,12 +12,15 @@ export default function Meme(props) {
 
 // using [Api ImgFlip]
 // We are using so its a sideefect need useEffect
-React.useEffect(() =>{
+ // We need a state to store the data
+
+const [newMemeDat,setNewMemeData] = React.useState()
+ React.useEffect(() =>{
   //append point
 
  fetch("https://api.imgflip.com/get_memes")
  .then(response => response.json())
- .then(memeData => setNewMemeData(data))
+ .then(memeData => setNewMemeData(data.memes.url))
 })
 
 
