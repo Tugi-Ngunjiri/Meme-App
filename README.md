@@ -21,4 +21,4 @@ ISC
 
 ## Project [
   
-([http://192.168.100.38:37225/])
+([https://meme-app-66z1.vercel.app/])
