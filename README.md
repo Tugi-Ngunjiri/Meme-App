@@ -22,16 +22,25 @@ app;
  - Run npx create-react-app my-app (to install reac dependencies)
  - cd into  my app(so as to get into the app website)
  - Run npm start to open the website server
- - Add you needed dependencies in src
+ - Add your needed dependencies in src;
+ <br>
  -Login.js
+ <br>
  -App.js
+ <br>
  -Images.jpeg
+ <br>
  -Meme.js
+ <br>
  -Style.css
+ <br>
  -User.Login.js
+ <br>
 
 # Sinatra part
 -Creating the  backened of the Meme app;
+
+- The Sinatra should be linked to the react app 
 
 --Start Up--
 
@@ -50,9 +59,25 @@ app;
   -MemeMigrations
 )
 
+-
+
+
 
 
 ## Project  Link
 
   https://meme-app-66z1.vercel.app/
 
+## Final Parts of the Project
+-Final Submission of Project
+
+## Pushing Git Changes
+ -Run Git add .
+ -Run Git commit -m "Adding new files"
+ -Run Git push
+
+
+## Project Submission
+-Copy and Paste your Link in the submission Box
+
+--End Of Project--
