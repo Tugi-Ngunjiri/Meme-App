@@ -49,10 +49,7 @@ function enterline(event){
 }
  console.log(appData);
 
-
-
-
- return (
+return (
     <div className="meme-container">
       <nav className="navbar">
         <img className="memeLOGO" src={props.memeLOGO} alt="memeLOGO" />
