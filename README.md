@@ -50,7 +50,13 @@ app;
 <br>
 -Inside the App contains the following;
 <br>
+
 -Create App.rb ( other main ruby file)
+<br>
+- create  a config folder;
+-It contains;
+- database.yml
+-enviornment.rb
 <br>
 -Create db  ( other main ruby file);
 <br>
@@ -71,8 +77,8 @@ app;
 -run bundle install;
 -You should  be able get the gemlock file
 - Code the various dependencies needed in the gem file;
-- They are as follows;
 
+- They are as follows;
 <br>
 -Ruby gems
 <br>
@@ -92,6 +98,19 @@ app;
 <br>
 -require_all
 <br>
+-pry
+
+- Create a rake file;
+-run rake db:migrate
+-run rake db:seed
+-run rake console
+
+- Create Schrema.rb
+<br>
+- Create Seed.rb
+<br>
+
+
 
 ## Project  Link
 
