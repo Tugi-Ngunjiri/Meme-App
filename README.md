@@ -23,6 +23,7 @@ app;
  - cd into  my app(so as to get into the app website)
  - Run npm start to open the website server
  - Add your needed dependencies in src;
+  - They are as follows
  <br>
  -Login.js
  <br>
@@ -59,10 +60,38 @@ app;
   -MemeMigrations
 )
 
--
+- Create Models;
 
+-In the models create-
+-Create active records conecting users and memes
+-User.rb (connects all the memes)
+-Meme.rb
 
+- Create a gem file;
+-run bundle install;
+-You should  be able get the gemlock file
+- Code the various dependencies needed in the gem file;
+- They are as follows;
 
+<br>
+-Ruby gems
+<br>
+-Ruby cors
+<br>
+- Sinatra Gem
+<br>
+-rack-contrib
+<br>
+-activerecord
+<br>
+-sinatra-activerecord
+<br>
+-rake
+<br>
+-sqlite3
+<br>
+-require_all
+<br>
 
 ## Project  Link
 
