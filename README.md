@@ -34,7 +34,17 @@ app;
 -Creating the  backened of the Meme app;
 
 --Start Up--
--Create App.rb (main ruby file)
+
+-create the app folder (Main Ruby Part );
+-Inside the App contains the following;
+-Create App.rb ( other main ruby file)
+-Create db  ( other main ruby file);
+- inside db create migrations ( 
+  - UserMigrations
+  -MemeMigrations
+)
+
+
 
 ## Project  Link
 
