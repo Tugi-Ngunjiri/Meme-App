@@ -4,8 +4,8 @@ export default function Meme(props) {
 
 // using state
  const [appData, setAppData] = React.useState({
-   enterfirstline:"",
-   entersecondline:"",
+   enterfirstline:"hi",
+   entersecondline:"hi",
    
 memepicture:"http://i.imgflip.com/28j0te.jpg",
 
