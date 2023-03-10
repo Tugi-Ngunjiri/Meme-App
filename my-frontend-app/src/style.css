@@ -78,7 +78,7 @@ input:focus{
   font-weight:bold;
   padding:12px 9px;
   border-radius:9px;
-  /*margin: left calc(30%);*/
+  margin: left calc(30%);
   margin-bottom: 12px;
 }
 
@@ -91,3 +91,12 @@ background-color:#f7c12a;
  border-radius:9px;
  border:2px solid white;
 }
+
+.firstline{
+  color: black;
+}
+.secondline{
+  color: black;
+}
+
+
