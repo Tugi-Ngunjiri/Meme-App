@@ -36,9 +36,13 @@ app;
 --Start Up--
 
 -create the app folder (Main Ruby Part );
+<br>
 -Inside the App contains the following;
+<br>
 -Create App.rb ( other main ruby file)
+<br>
 -Create db  ( other main ruby file);
+<br>
 - inside db create migrations ( 
   - UserMigrations
   -MemeMigrations
