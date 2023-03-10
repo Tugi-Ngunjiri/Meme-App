@@ -45,6 +45,7 @@ app;
 <br>
 - inside db create migrations ( 
   - UserMigrations
+  <br>
   -MemeMigrations
 )
 
