@@ -36,6 +36,10 @@ app;
  -Style.css
  <br>
  -User.Login.js
+ -Use ;
+ 1. Use user1(first user)  and pass1(password) as  to log in
+
+ 2. Use user2(second user) to and  pass2 (password) to login
  <br>
 
 # Sinatra part
