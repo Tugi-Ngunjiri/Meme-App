@@ -37,6 +37,21 @@ setAppData((prevdata) => {
 })
 }
 
+function enterline(event){
+ setAppData(prevAppData => {
+  return ({
+    ...prevAppData,
+    [event.target.name]: event.target.value
+  })
+
+ })
+
+}
+ console.log(appData);
+
+
+
+
  return (
     <div className="meme-container">
       <nav className="navbar">
@@ -45,8 +60,8 @@ setAppData((prevdata) => {
       </nav>
 
       <div className="input-field" >
-        <input type="text" placeholder="Enter the first line ..." name="firstline" />
-       <input type="text" placeholder="Enter the second line ..." name="secondline" />
+        <input type="text" placeholder="Enter the first line ..." name="firstline" onchange={enterline} value={appData.firstline} />
+       <input type="text" placeholder="Enter the second line ..." name="secondline" onchange={enterline} value ={appData.secondline} />
   </div>
    <button className="generateBTN" onClick={getNewMeme}> 
    Generate a new Meme</button>
