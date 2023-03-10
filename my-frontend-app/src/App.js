@@ -22,8 +22,7 @@ export function App() {
       password: "pass2"
     }
   ];
-
-  const errors = {
+     const errors = {
     uname: "invalid username",
     pass: "invalid password"
   };
@@ -84,8 +83,8 @@ export function App() {
         <div className="title">Sign In</div>
         <div className='app-container'>
           <Meme memeLOGO={memeLOGO} />
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
-        
+          {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+
         </div>
       </div>
     </div>
