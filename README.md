@@ -49,13 +49,13 @@ app;
 
 --Start Up--
 
--create the app folder (Main Ruby Part );
+-create the App folder (Main Ruby Part );
 
 <br>
 -Inside the App contains the following;
 <br>
 
--Create App.rb ( other main ruby file)
+-Create Application_controller.rb in controller  ( other main ruby file)
 <br>
 - create  a config folder;
 -It contains;

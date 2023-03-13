@@ -7,7 +7,7 @@ export default function Meme(props) {
    enterfirstline:"hi",
    entersecondline:"hi",
    
-memepicture:"https://winter-meteor-106655.postman.co/workspace/adc1b0b2-5820-4ca6-8985-5c4a607c4a0c/api/ed477c69-d666-40e7-97a0-c2d6cd8af0ca/definition/d1bb234f-cb5b-4099-a459-5336a899b425/file/d1bb234f-cb5b-4099-a459-5336a899b425",
+memepicture:"https://i.imgflip.com/30b1gx.jpg",
 
  })
 
@@ -19,7 +19,8 @@ const [newMemeData,setNewMemeData] = React.useState([])
  React.useEffect(() =>{
   //append point
 
- fetch("https://winter-meteor-106655.postman.co/workspace/adc1b0b2-5820-4ca6-8985-5c4a607c4a0c/api/ed477c69-d666-40e7-97a0-c2d6cd8af0ca/definition/d1bb234f-cb5b-4099-a459-5336a899b425/file/d1bb234f-cb5b-4099-a459-5336a899b425")
+ fetch("https://api.imgflip.com/get_memes"
+)
  .then(response => response.json())
  .then((memeData) => setNewMemeData(memeData.data.memes))
 })
