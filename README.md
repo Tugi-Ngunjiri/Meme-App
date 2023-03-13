@@ -116,9 +116,10 @@ app;
 
 
 
-## Project  Link
+## Project  Links
 
-  https://meme-app-66z1.vercel.app/
+  https://meme-app-66z1.vercel.app/ (frontend)
+  https://sinatra-app.vercel.app/  (backend)
 
 ## Final Parts of the Project
 -Final Submission of Project
