@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tugi-Ngunjiri/Meme-App/static/css/main.de3957a2.css",
+    "main.js": "/Tugi-Ngunjiri/Meme-App/static/js/main.40a78698.js",
+    "static/media/images.jpeg": "/Tugi-Ngunjiri/Meme-App/static/media/images.5266aad9f54353e6b420.jpeg",
+    "index.html": "/Tugi-Ngunjiri/Meme-App/index.html",
+    "main.de3957a2.css.map": "/Tugi-Ngunjiri/Meme-App/static/css/main.de3957a2.css.map",
+    "main.40a78698.js.map": "/Tugi-Ngunjiri/Meme-App/static/js/main.40a78698.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3957a2.css",
+    "static/js/main.40a78698.js"
+  ]
+}
