@@ -119,8 +119,9 @@ app;
 
 ## Project  Links
 
-  https://tugi-ngunjiri.github.io/Meme-App/(frontend)
-   (backend) and https://github.com/Tugi-Ngunjiri/sinatra-app
+  https://tugi-ngunjiri.github.io/Meme-App/(frontend) and
+  <br>
+   (backend)  https://github.com/Tugi-Ngunjiri/sinatra-app
 
 ## Final Parts of the Project
 -Final Submission of Project
