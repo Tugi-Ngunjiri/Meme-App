@@ -4,8 +4,7 @@ export default function Meme(props) {
 
 // using state
  const [appData, setAppData] = React.useState({
-   enterfirstline:"hi",
-   entersecondline:"hi",
+   
    
 memepicture:"https://i.imgflip.com/30b1gx.jpg",
 
@@ -58,10 +57,6 @@ return (
         <p className="title">Meme Generator</p>
       </nav>
 
-      <div className="input-field" >
-        <input type="text" placeholder="Enter the first line ..." name="firstline" onchange={enterline} value={appData.firstline} />
-       <input type="text" placeholder="Enter the second line ..." name="secondline" onchange={enterline} value ={appData.secondline} />
-  </div>
    <button className="generateBTN" onClick={getNewMeme}> 
    Generate a new Meme</button>
  <img className="imageMEME"  src= {appData.memepicture} alt="randomMeme" />
