@@ -43,7 +43,8 @@ const handleSubmit = (event) => {
 function submitted() {
     return (
         <div className="login-form">
-        <div className="title">Sign In</div>
+         <form onSubmit={handleSubmit}></form>
+        <div  className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
         )

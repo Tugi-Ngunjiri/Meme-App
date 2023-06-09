@@ -39,17 +39,7 @@ setAppData((prevdata) => {
 })
 }
 
-function enterline(event){
- setAppData(prevAppData => {
-  return ({
-    ...prevAppData,
-    [event.target.name]: event.target.value
-  })
-
- })
-
-}
- console.log(appData);
+console.log(appData);
 
 return (
     <div className="meme-container">
