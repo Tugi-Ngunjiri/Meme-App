@@ -119,7 +119,7 @@ app;
 
 ## Project  Links
 
-  https://meme-app-66z1.vercel.app/ (frontend)
+  https://tugi-ngunjiri.github.io/Meme-App/(frontend)
    (backend) and https://github.com/Tugi-Ngunjiri/sinatra-app
 
 ## Final Parts of the Project
