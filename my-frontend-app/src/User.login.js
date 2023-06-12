@@ -5,11 +5,11 @@ import {isSubmitted} from './User.login'
 const database = [
     {
         username: "user1",
-        password: "Pass1"
+        password: "pass1"
     },
     {
         username: "user2",
-        password: "Pass2"
+        password: "pass2"
     }
 ];
 
